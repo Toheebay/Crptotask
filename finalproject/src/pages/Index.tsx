@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Header } from "@/components/Header";
 import { CryptoTracker } from "@/components/CryptoTracker";
-import { TaskManager } from "@/components/TaskManager";
+import TaskManager from "@/components/TaskManager";
+
 import { AIRedesignTools } from "@/components/AIRedesignTools";
 import { Footer } from "@/components/Footer";
 

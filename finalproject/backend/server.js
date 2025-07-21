@@ -1,10 +1,8 @@
-// server.js (ESM syntax with "type": "module" in package.json)
-import express from 'express';
-import dotenv from 'dotenv';
-import mongoose from 'mongoose';
-import cors from 'cors';
-
-import taskRoutes from './routes/tasks.js';
+import express from "express";
+import mongoose from "mongoose";
+import dotenv from "dotenv";
+import cors from "cors";
+import taskRoutes from "./routes/taskRoutes.js";
 
 dotenv.config();
 
@@ -16,23 +14,18 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-app.use('/api/tasks', taskRoutes);
+app.use("/api/tasks", taskRoutes);
 
-// Test route
-app.get('/', (req, res) => {
-  res.send('API is running...');
-});
-
-// MongoDB Connection
+// DB Connection
 mongoose
   .connect(process.env.MONGO_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
   .then(() => {
-    console.log('MongoDB connected');
-    app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
+    console.log("MongoDB connected");
+    app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
   })
   .catch((err) => {
-    console.error('MongoDB connection error:', err);
+    console.error("Connection failed:", err.message);
   });
