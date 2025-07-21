@@ -1,73 +1,60 @@
-# Welcome to your Lovable project
+README.md for my project All-in-One Productivity & Crypto Monitoring Suite:
 
-## Project info
+All-in-One Productivity & Crypto Monitoring Suite
 
-**URL**: https://lovable.dev/projects/2eca382d-382b-4816-8c9f-275556bc4891
+Live: [https://crptotask-i3mm.vercel.app](https://crptotask-i3mm.vercel.app)
 
-## How can I edit this code?
+Overview
 
-There are several ways of editing your application.
+All-in-One Productivity & Crypto Monitoring Suite is a modern web platform that combines task management and real-time cryptocurrency tracking in a seamless, user-friendly interface. It's designed for digital professionals, crypto enthusiasts, and productivity-focused individuals who want everything in one place.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2eca382d-382b-4816-8c9f-275556bc4891) and start prompting.
+Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- ✅ Task Manager – Create, edit, delete, and manage daily tasks efficiently
+- 📈 Crypto Tracker – View real-time prices for top cryptocurrencies like Bitcoin, Ethereum, etc.
+- 📊 Minimal UI…
+  [3:36 AM, 7/21/2025] ChatGpt: - 💡 No Login Required – Start using instantly without authentication
+- ⚡ Fast Performance – Built with Vite, React, and Tailwind CSS for speed
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Frontend: React, Vite, TypeScript, Tailwind CSS
+- API & Data: CoinGecko API for crypto data
+- Database (Upcoming): MongoDB for task persistence
+- Hosting: Vercel
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Getting Started (Dev Setup)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+[3:36 AM, 7/21/2025] ChatGpt: cd your-repo-name
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Project Structure
 
-**Use GitHub Codespaces**
+- src/pages: Main app pages
+- src/components: UI components
+- src/api: External API calls
+- src/types: TypeScript interfaces
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+Roadmap
 
-This project is built with:
+- [x] MVP live with tasks + crypto
+- [ ] Add MongoDB integration
+- [ ] User accounts (optional)
+- [ ] Mobile app version
+- [ ] Dark mode toggle
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/2eca382d-382b-4816-8c9f-275556bc4891) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+PLP FEB CORHOT © 2025 — ADEBAYO TOHEEB KOLAWOLE alias toheebay
