@@ -18,7 +18,7 @@ const taskSchema = new mongoose.Schema(
       default: "todo",
     },
     dueDate: {
-      type: Date,
+      type: Date, // ✅ this already supports deadline
     },
     tags: [String],
   },
